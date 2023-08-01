@@ -1,7 +1,7 @@
 import { AiOutlinePlus } from "react-icons/ai";
 import { CiUser } from "react-icons/ci";
+import { MdOutlinePostAdd } from "react-icons/md";
 import { RiSearchLine } from "react-icons/ri";
-import { TiTick } from "react-icons/ti";
 
 export default function Nav() {
  
@@ -10,8 +10,8 @@ export default function Nav() {
       <nav className="flex flex-col-reverse gap-y-5 shad rounded-lg py-3 px-5 lg:flex-row justify-between items-center">
         <div className="lg:flex items-center justify-between hidden ">
           <span className="font-bold">
-            <TiTick className="text-blue-500 inline text-2xl mb-1" />
-            Task Manager
+            <MdOutlinePostAdd className="text-blue-500 inline text-2xl mb-1" />
+            Blog App
           </span>
         </div>
         <div className="flex flex-col gap-y-5 lg:flex-row items-center">
